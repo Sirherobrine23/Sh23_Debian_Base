@@ -1,0 +1,8 @@
+[Unit]
+Description=Matheus S Queiroga Service
+After=network.services
+
+[Service]
+ExecStart=/bin/Sh23Start.sh
+Restart=always
+
